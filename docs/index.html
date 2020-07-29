@@ -1,0 +1,426 @@
+
+<html class="gr__filebox_ece_vt_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	<style>
+	body {
+		background: white;
+		color: #222222;
+		padding: 0;
+		margin: 0;
+		font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		line-height: 1.4;
+   }
+	a:link {
+		text-decoration: none;
+	}
+	a:visited {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	a:active {
+		text-decoration: underline;
+	}
+	p{
+		font-size:1.2em;
+	}
+	img {
+		width:100%;
+		max-width: 300px;
+	}
+	.rcorner{
+		border-radius: 25px;
+		border: 2px solid #8AC007;
+		padding: 20px;
+	}
+	div{
+		max-width:1200px;
+		position:relative;
+		font-family: Arial;
+	}
+	.bold{font-weight: bold;}
+	.italic{font-style: italic;}
+	.sz25{font-size:2.5em;}
+	.sz20{font-size:1.5em;}
+	.sz15{font-size:1.5em;}
+	.sz13{font-size:1.3em;}
+	.sz12{font-size:1.2em;}
+	.sz10{font-size:1.0em;}
+	.sz08{font-size:0.8em;}
+	.inline{display:inline-block;}
+	.no_margin{
+		margin: 0 0;
+	}
+	.padding20{
+		padding: 0px;
+	}
+	/*.halign{*/
+	/*	margin-left: auto;*/
+	/*	margin-right: auto;*/
+	/*}*/
+	.block_2
+	{
+		width:49%;
+		max-width: 512px;
+		display: inline-block;
+		position: relative;
+	}
+	.block_5_2
+	{
+		width:40%;
+		max-width: 410px;
+		display: inline-block;
+		position: relative;
+	}
+	.block_3
+	{
+		width:33%;
+		max_width: 341px;
+		display: inline-block;
+		position: relative;
+	}
+	.block_1
+	{
+		width:100%;
+		display: inline-block;
+		/*position: relative;*/
+		/*margin: 5px 5px;*/
+		text-align: justify;
+
+	}
+	.block_N
+	{
+		display: inline-block;
+		position: relative;
+	}
+	.block_6
+	{
+		width:16%;
+		display: inline-block;
+		position: relative;
+
+	}
+
+	img.header-img {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+
+	img.rounded {
+		border: 0px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+
+	.layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		        5px 5px 0 0px #fff, /* The second layer */
+		        5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		        10px 10px 0 0px #fff, /* The third layer */
+		        10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+		        15px 15px 0 0px #fff, /* The fourth layer */
+		        15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+		        20px 20px 0 0px #fff, /* The fifth layer */
+		        20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+		        25px 25px 0 0px #fff, /* The fifth layer */
+		        25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+	.paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35); /* The top layer shadow */
+
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+
+	.layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		        5px 5px 0 0px #fff, /* The second layer */
+		        5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		        10px 10px 0 0px #fff, /* The third layer */
+		        10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+		margin-top: 5px;
+		margin-left: 10px;
+		margin-right: 30px;
+		margin-bottom: 5px;
+	}
+
+	.vert-cent {
+		position: relative;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+
+	.block_6_5
+	{
+		width:83%;
+		display: inline-block;
+		position: relative;
+	}
+
+	.std{
+		border: 0.5px dashed black;
+		border-collapse: collapse;
+	}
+	td {
+		padding: 15px;
+	}
+		.link {
+			color: #222222;
+		}
+
+	</style>
+	<title>
+		VPQ
+	</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141788472-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141788472-1');
+</script>
+
+</head>
+<body data-gr-c-s-loaded="true">
+<div class="container">
+
+<div style="margin-top: 20px">
+	<div style="float: left; width: 10%; margin-left: 5%"><a href="https://www.microsoft.com/en-in/"><img src="static/ms.png" alt="Microsoft"/></a></div>
+	<div style="float: left; width: 70%;">
+	<div class="block_1">
+
+		<div class="block_1">
+			<div align="center">
+				<p class="sz20 no_margin"><b></b>Visual Precise Query</p>
+			</div>
+			<p align="center"></p>
+<!-- <p class="no_margin bold" align="center"> <a class="link">Riddhiman Dasgupta </a><sup></sup>,<a class="link">Francis Tom </a><sup></sup>,<a class="link">Sudhir Kumar </a><sup></sup>,<a class="link">Mithun Das Gupta </a><sup></sup>,<a class="link">Yokesh Kumar </a><sup></sup>,<a class="link" href="https://badripatro.github.io/">Badri N. Patro</a><sup></sup>,  <a class="link" href="https://www.cse.iitk.ac.in/users/vinaypn/">Vinay P. Namboodiri</a></p> -->
+<!--            <p  class="no_margin" align="center"><a href="http://deltalab.iitk.ac.in/">Delta Lab</a></p>-->
+<!--				<p class="no_margin" align="center"><a href="http://iitk.ac.in/">Indian Institute of Technology Kanpur</a></p>-->
+<p class="sz12" align="center"><a class="link" href="https://aaai.org/ojs/index.php/AAAI/article/view/6858/6712">[ACM-MM-2020]</a></p>
+		<p align="center"></p>
+		</div>
+	</div>
+</div>
+	<div style="float: left; width: 10%;"><a href="https://www.iitk.ac.in/"><img src="static/iitk.png"  alt="sherlock"/></a></div>
+<!--<div class="halign">
+		<div class="block_1">
+			<div class="">
+
+			</div>
+	</div>
+</div>-->
+
+	<div class="block_1">
+		<div class="">
+			<br>
+			<hr>
+			<p class="sz15 bold">Abstract:</p>
+			<div class="thumbnail" style="float:right; margin-left: 20px" >
+					<img src="static/ex12.png" alt="l0" style="max-width:400px">
+					<div class="caption" style="max-width:400px">
+						<p>Training pairs for the proposed visually precise query (VPQ) generation task. The image and its title in 
+							the blue box are the inputs to the system. The outputs are the 4 keywords shown in the search box, 
+							which are part of the title itself. The acceptance criteria investigates, whether these words, when 
+							used as a search query, were able to retrieve the original image.</p>
+					</div>
+			</div>
+				<p class="sz12">
+					We present the problem of Visually Precise Query (VPQ) generation which enables a more intuitive match between a
+					user's information need and an e-commerce site's product description. Given an image of a fashion item, what is the
+					most optimum search query that will retrieve the exact same or closely related product(s) with high probability. In 
+					this paper we introduce the task of VPQ generation which takes a product image and its title as its input and provides 
+					a \textit{word level} extractive summary of the title, containing a list of salient attributes, which can now be used 
+					as a query to search for similar products. We collect a large dataset of fashion images and their titles and merge it 
+					with an existing research dataset which was created for a different task.  Given the image and title pair, VPQ problem
+					is posed as identifying a non-contiguous collection of spans within the title. We provide a dataset of around 350K image,
+					title and corresponding VPQ entries and will be releasing it to the research community. We provide a detailed description 
+					of the data collection process as well as discuss the future direction of research for the problem introduced in this work. 
+					We provide the standard text as well as visual domain baseline comparisons and also provide multi-modal baseline models to 
+					analyze the task introduced in this work. Finally, we propose a hybrid fusion model which promises to be the direction of 
+					research in the multi-modal community. 
+
+			</p>
+		</div>
+	</div>
+
+
+
+	<p class="sz15 bold">
+		<br>
+		VPQ Data Collection:
+	</p>
+	<div class="thumbnail" style="float:right; margin-left: 20px" >
+		<img src="static/DataPipeline3.png" alt="l3">
+		<hr>
+		<div class="caption">
+			<p>The overall data generation pipeline. The dataset is split into two halves. Each is then turned into two uni-modal ANN indexes. 
+				Nearest neighbors based on both text and images are collected for each subset based on the matches from the indexes built 
+				for the other subset. Tag based filtering then reduces the possible count of query candidates. Finally, the queries are 
+				furnished to a search engine and the results are then analyzed to select the final VPQs.</p>
+		</div>
+	</div>
+
+
+
+
+<div class="block_1">
+
+	<br>
+	<hr>
+
+	<p class="sz15 bold">
+		
+		Attribute distribution	</p>
+	<div class="thumbnail" style="float:right; margin-left: 20px">
+		<img src="static/attributeCircHist2.png" alt="l2">
+		<hr>
+		<div class="caption">
+			<p>Attribute level distributions for the dress class.</p>
+		</div>
+	</div>
+</div>
+
+	
+	
+
+<div class="block_1">
+
+	<br>
+	<hr>	
+	
+	
+	<p class="sz15 bold">
+		<br>
+		Sub category distribution	</p>
+	<div class="thumbnail" style="float:right; margin-left: 20px">
+		<img src="static/dress_circular_histogram.png" alt="l4">
+		<hr>
+		<div class="caption">
+			<p>Sub category distribution for the dress class.</p>
+		</div>
+	</div>
+
+</div>
+ 	
+	
+		
+
+<div class="block_1">
+
+			<br>
+			<hr>
+	<p class="sz15 bold">	
+	
+			From Dress catalogue to query dataset	</p>
+	<div class="thumbnail" style="float:right; margin-left: 20px">
+
+			<img src="static/VPQViz.png" alt="l5">
+		<hr>
+		<div class="caption">
+			<p>Query candidate selection process. For the target image and title shown in blue, four possible short queries
+				are shown (in red) with their retrieved results.</p>
+		</div>
+	</div>
+</div>
+
+	
+	
+	
+	
+	
+
+<style>
+	table,
+	th,
+	td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+</style>
+<br>
+
+<!-- <h2>Dataset Details :VP </h2> -->
+<p class="sz15 bold">
+	
+	Dataset Details :VPQ </p>
+<p> Need to enter here onwards.</p>
+
+<table style="width:40%">
+	<tr>
+		<th>Field</th>
+		<th>Train</th>
+		<th>Val</th>
+		<th>Test</th>
+	</tr>
+	<tr>
+		<td>Q-A pairs</td>
+		<td>2,48,349</td>
+		<td>1,21,512</td>
+		<td>2,44,302</td>
+	</tr>
+</table>
+
+	<!-- This is for empty space -->
+
+<div class="block_1" id="Bibtex">
+	<div class="">
+		<p class="sz15 bold">BibTex</p>
+		<p style="font-family: Comic Sans MS; font-size: 14px;">@InProceedings{Patro_2020_AAAI,<br>
+		author = {Patro, Badri N.  and Anupriy and Namboodiri, Vinay P.},<br>
+		title = {Explanation vs Attention: A Two-Player Game to Obtain Attention for VQA},<br>
+		booktitle = {AAAI},<br>
+		year = {2020}<br>
+		}<br>
+	    </p>
+		</div>
+</div>
+
+	<div class="block_1">
+		<div class="">
+			<p class="sz15 bold">Acknowledgement</p>
+			<p>We acknowledge the help provided by <a target="_blank" href="http://deltalab.iitk.ac.in/">Delta Lab</a> members, who have supported us for this research activity.
+			</p>
+		</div>
+	</div>
+
+	
+<p>                                              </p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------------</p>
+	
+	
+</div>
+</div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141358857-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141358857-1');
+</script>
+
+
+<script type="text/javascript">
+
+</script>
+
+</body></html>
